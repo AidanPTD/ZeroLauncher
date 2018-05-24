@@ -1,0 +1,532 @@
+Tweakables = 
+{
+	EditorUi_ = 
+	{
+		Vec4 ClearColor = [0.180391997, 0.180391997, 0.180391997, 1],
+		Vec4 TextColor = [1, 1, 1, 1],
+		AnimGraphPreview_ = 
+		{
+			Vec4 BorderColor = [0.180391997, 0.180391997, 0.180391997, 1],
+			Vec4 NodeColor = [0.188235, 0.188235, 0.188235, 1],
+			Vec4 ProgressColor = [1, 0.388235003, 0.0235293992, 1],
+			Vec4 ProgressBgColor = [0.458824009, 0.31764701, 0.231372997, 1],
+			float EdgeArrowSize = 5,
+		},
+		AnimationEditor_ = 
+		{
+			float ControlsWidth = 238,
+			float ScrubberHeight = 63,
+			Vec4 InactiveKeyColor = [0.545000017, 0.545000017, 0.545000017, 1],
+			Vec4 ActiveKeyColor = [0.92156899, 0.568628013, 0.282353014, 1],
+			Vec4 NegativeXColor = [1, 0, 0.000599861029, 0.129999995],
+			Vec4 NegativeXHighlight = [1, 0, 0, 0.170000002],
+			Vec4 ErrorStateColor = [0.917647004, 0.478430986, 0.196078002, 0.694999993],
+			Vec4 ErrorStateHighlightColor = [0.917647004, 0.478430986, 0.196078002, 0.800000012],
+			AnimControls_ = 
+			{
+				Vec4 BackgroundColor = [0.779999971, 0.779999971, 0.779999971, 1],
+			},
+			AnimGraph_ = 
+			{
+				Vec4 BackgroundColor = [0.215000004, 0.215000004, 0.215000004, 1],
+				Vec4 GridLineColor = [0.150000006, 0.150000006, 0.150000006, 1],
+				Vec4 GridHalfLineColor = [0.192157, 0.192157, 0.192157, 1],
+			},
+			Scrubber_ = 
+			{
+				Vec4 BackgroundColor = [0.780391991, 0.780391991, 0.780391991, 1],
+				Vec4 AutoKeyBackgroundColor = [0.860000014, 0.57190001, 0.57190001, 0.999899983],
+				Vec4 KeyFrame = [0.92156899, 0.568628013, 0.282353014, 1],
+				Vec4 KeyFrameHover = [0.709999979, 0.43808499, 0.217531994, 1],
+				Vec4 KeyFrameSelected = [1, 1, 1, 1],
+				Vec4 KeyFrameSelectedHover = [0.745000005, 0.745000005, 0.745000005, 1],
+				Vec4 PlayHeadColor = [0.0149999997, 1, 1, 1],
+				Vec4 GhostPlayHeadColor = [0.629999995, 0.629999995, 0.629999995, 0.375],
+			},
+			TrackView_ = 
+			{
+				Vec4 BackgroundColor = [0.258823991, 0.258823991, 0.258823991, 1],
+				Vec4 ErrorToolTopBorder = [0.764706016, 0.243137002, 0.200000003, 1],
+				Vec4 ErrorBgColorPrimary = [0.337255001, 0.247059003, 0.239216, 1],
+				Vec4 ErrorBgColorSecondary = [0.356862992, 0.266667008, 0.258823991, 1],
+				Vec4 DisabledText = [0.444999993, 0.444999993, 0.444999993, 1],
+				Vec4 HintColor = [0.917647004, 0.478430986, 0.196078002, 1],
+			},
+		},
+		BackgroundTasks_ = 
+		{
+			Vec4 WindowBackgroundColor = [0.180391997, 0.180391997, 0.180391997, 1],
+			Vec4 TaskBackgroundColor = [0.258823991, 0.258823991, 0.258823991, 1],
+			Vec4 TaskBackgroundHighlight = [0.344999999, 0.344999999, 0.344999999, 1],
+			Vec4 TaskXColor = [0.535000026, 0.535000026, 0.535000026, 1],
+			Vec4 TaskXHighlight = [0.785000026, 0.785000026, 0.785000026, 1],
+			Vec2 TaskSize = [250, 30],
+			float ProgressBarHeight = 2,
+			Default_ = 
+			{
+				Vec4 IconColor = [0.5, 0.5, 0.5, 1],
+				Vec4 ProgressBarPrimaryColor = [1, 0.388235003, 0.0235293992, 1],
+				Vec4 ProgressBackgroundColor = [0.458824009, 0.31764701, 0.231372997, 1],
+			},
+			Downloads_ = 
+			{
+				Vec4 IconColor = [0.501960993, 0.501960993, 0.501960993, 1],
+				Vec4 ProgressPrimaryColor = [0.580392003, 1, 0.0588234998, 1],
+				Vec4 ProgressBackgroundColor = [0.231372997, 0.458824009, 0.309803993, 1],
+			},
+			TaskButton_ = 
+			{
+				Vec4 IconColor = [0.55686301, 0.55686301, 0.55686301, 1],
+				Vec4 IconFlash = [0.580392003, 1, 0.0588234998, 1],
+				Vec4 IconBackgroundFlash = [0.580392003, 1, 0.0588234998, 1],
+				Vec4 ProgressPrimaryColor = [0.580392003, 1, 0.0588234998, 1],
+				Vec4 ProgressBackgroundColor = [0.231372997, 0.458824009, 0.309803993, 1],
+			},
+		},
+		CollisionTable_ = 
+		{
+			float LabelRightPadding = 5,
+			float LabelYPadding = 5,
+		},
+		Components_ = 
+		{
+			Skeleton_ = 
+			{
+				Vec4 BoneColor = [0.954999983, 0.952995002, 0.926349998, 0.834999979],
+				Vec4 BoneSelectedColor = [0.236399993, 0.850251973, 0.985000014, 0.99000001],
+				float MinBoneRadius = 0.00499999989,
+				float BoneLengthScale = 0.0500000007,
+			},
+		},
+		ContentImporter_ = 
+		{
+			Vec4 ToolTipBorderColor = [0.941177011, 0.690195978, 0.274509996, 1],
+		},
+		ContentStore_ = 
+		{
+			Vec4 ContentHighlightColor = [0.247059003, 0.407842994, 0.541176021, 1],
+			Vec4 ContentSelectColor = [0, 0.501960993, 0.92156899, 1],
+			float ContentPadding = 4,
+			float ContentCellSize = 60,
+			string StorePath = "http://zero.digipen.edu/ContentStoreStaging/",
+			Uploader_ = 
+			{
+				Vec4 MissingColor = [0.839999974, 0.1008, 0.1008, 1],
+			},
+		},
+		Controls_ = 
+		{
+			Button_ = 
+			{
+				Vec4 DefaultColor = [0.392156988, 0.392156988, 0.392156988, 1],
+				Vec4 HoverColor = [0.550000012, 0.550000012, 0.550000012, 1],
+				Vec4 ClickedColor = [0.194999993, 0.194999993, 0.194999993, 1],
+				Vec4 BorderColor = [0.180391997, 0.180391997, 0.180391997, 1],
+				Vec4 FocusBorderColor = [0.0189999994, 0.419330001, 0.949999988, 1],
+			},
+			CheckBox_ = 
+			{
+				Vec4 BackgroundColor = [0.25097999, 0.25097999, 0.25097999, 1],
+				Vec4 BorderColor = [0.149020001, 0.149020001, 0.149020001, 1],
+				Vec4 CheckColor = [0.795000017, 0.795000017, 0.795000017, 1],
+				Vec4 FocusBorderColor = [0.0332750008, 0.399179012, 0.605000019, 1],
+				Vec2 CheckSize = [12, 12],
+			},
+			IconButton_ = 
+			{
+				Vec4 DefaultColor = [0.258823991, 0.258823991, 0.258823991, 1],
+				Vec4 HoverColor = [0.370000005, 0.370000005, 0.370000005, 1],
+				Vec4 ClickedColor = [0.144999996, 0.144999996, 0.144999996, 1],
+				Vec2 Padding = [2, 2],
+				Vec4 ActiveColor = [0.247059003, 0.403921992, 0.529411972, 1],
+				Vec4 ActiveHoverColor = [0.303333014, 0.495925993, 0.649999976, 1],
+			},
+			Menu_ = 
+			{
+				Vec4 BackgroundColor = [0.258823991, 0.258823991, 0.258823991, 1],
+				Vec4 BorderColor = [0.180391997, 0.180391997, 0.180391997, 1],
+				Vec2 BorderPadding = [18, 2],
+				Vec4 ItemTextColor = [0.87450999, 0.87450999, 0.87450999, 1],
+				Vec4 ItemBackgroundColor = [0.125489995, 0.125489995, 0.125489995, 0],
+				Vec4 ItemBorderColor = [0, 0, 0, 0],
+				Vec4 ItemSelectedTextColor = [0.999899983, 0.999899983, 0.999899983, 1],
+				Vec4 ItemSelectedBorderColor = [0.741176009, 0.741176009, 0.741176009, 1],
+				Vec4 ItemSelectedBackgroundColor = [0.247059003, 0.407842994, 0.541176021, 0.810000002],
+				Vec4 ItemDisabledTextColor = [0.555000007, 0.555000007, 0.555000007, 1],
+				Vec4 MenuBarItemPadding = [4, 4, 4, 4],
+				Vec4 GutterColor = [0.180391997, 0.180391997, 0.180391997, 0.495000005],
+			},
+			ModernTextButton_ = 
+			{
+				Vec4 TextColor = [1, 1, 1, 1],
+				Vec4 TextHoverColor = [1, 1, 1, 1],
+				Vec4 TextClickedColor = [1, 1, 1, 1],
+			},
+			Popup_ = 
+			{
+				Vec4 BackgroundColor = [0.180391997, 0.180391997, 0.180391997, 1],
+				Vec4 BorderColor = [0.117647, 0.117647, 0.117647, 0],
+			},
+			ProgressBar_ = 
+			{
+				Vec4 BackgroundColor = [0.180391997, 0.180391997, 0.180391997, 1],
+				Vec4 ProgressBarColor = [0.665000021, 0.324983001, 0.106399998, 1],
+				float Padding = 1,
+			},
+			ScrollBar_ = 
+			{
+				Vec4 SliderColor = [0.164706007, 0.164706007, 0.164706007, 1],
+				Vec4 MouseOverSlider = [0.180000007, 0.180000007, 0.180000007, 1],
+				float Width = 10,
+				float Spacing = 2,
+			},
+			SelectorButton_ = 
+			{
+				Vec4 DefaultColor = [0.258823991, 0.258823991, 0.258823991, 1],
+				Vec4 DefaultHighlightColor = [0.340000004, 0.340000004, 0.340000004, 1],
+				Vec4 DefaultClickedColor = [0.215000004, 0.215000004, 0.215000004, 1],
+				Vec4 SelectedColor = [0.172548994, 0.309803993, 0.423528999, 1],
+				Vec4 SelectedHighlightColor = [0.192975, 0.341738999, 0.465000004, 1],
+				Vec4 SelectedClickedColor = [0.141100004, 0.249872997, 0.340000004, 1],
+				Vec4 DefaultTextColor = [0.574999988, 0.574999988, 0.574999988, 1],
+				Vec4 SelectedTextColor = [1, 1, 1, 1],
+			},
+			Slider_ = 
+			{
+				Vec4 FocusBorderColor = [0.196078002, 0.529411972, 0.917647004, 1],
+			},
+			Tags_ = 
+			{
+				Vec4 BackgroundColor = [0.301961005, 0.301961005, 0.301961005, 1],
+				Vec4 SearchIconBgColor = [0.615685999, 0.180391997, 0.0509804003, 1],
+				Vec4 SearchIconColor = [0.274509996, 0.274509996, 0.274509996, 1],
+				Vec4 SearchIconColorRight = [0.174999997, 0.174999997, 0.174999997, 1],
+			},
+			TextBox_ = 
+			{
+				Vec4 BackgroundColor = [0.392156988, 0.392156988, 0.392156988, 1],
+				Vec4 BorderColor = [0.180391997, 0.180391997, 0.180391997, 1],
+				Vec4 FocusBorderColor = [0.196078002, 0.527999997, 0.917647004, 1],
+				Vec4 ReadOnlyBackgroundColor = [0.36500001, 0.36500001, 0.36500001, 1],
+				Vec4 ReadOnlyTextColor = [0.644999981, 0.644999981, 0.644999981, 1],
+				Vec4 HintColor = [0.649999976, 0.649999976, 0.649999976, 1],
+				Modern_ = 
+				{
+					Vec4 BackgroundColor = [1, 1, 1, 1],
+					Vec4 BorderColor = [1, 1, 1, 1],
+					Vec4 FocusBorderColor = [1, 1, 1, 1],
+					Vec4 ReadOnlyBackgroundColor = [1, 1, 1, 1],
+					Vec4 ReadOnlyTextColor = [1, 1, 1, 1],
+					Vec4 HintColor = [1, 1, 1, 1],
+				},
+				TextBoxButton_ = 
+				{
+					Vec4 BackgroundColor = [1, 1, 1, 1],
+					Vec4 BackgroundHover = [1, 1, 1, 1],
+					Vec4 BackgroundClicked = [1, 1, 1, 1],
+					float ButtonWidth = 34,
+				},
+			},
+			ToolTip_ = 
+			{
+				Vec4 BackgroundColor = [0.180391997, 0.180391997, 0.180391997, 1],
+				Vec4 BorderColor = [0.392156988, 0.396077991, 0.396077991, 1],
+				float ToolTipWrapWidth = 280,
+			},
+			Toolbar_ = 
+			{
+				Vec4 BackgroundColor = [0.180391997, 0.180391997, 0.180391997, 1],
+				Vec4 DividerColor = [0.180391997, 0.180391997, 0.180391997, 1],
+			},
+		},
+		ConvexMeshEditor_ = 
+		{
+			Vec4 ControlPointColor = [0.995000005, 0.995000005, 0.995000005, 1],
+			Vec4 ControlPointHighlightColor = [0.75, 0.75, 0.75, 1],
+			Vec4 ControlPointSelectionColor = [0, 0.76078397, 1, 1],
+			Vec4 OuterContourColor = [0.850000024, 0.850000024, 0.850000024, 1],
+			Vec4 OuterContourHighlightColor = [0.685000002, 0.678149998, 0.678149998, 1],
+			Vec4 OuterContourInvalidColor = [1, 0, 0, 1],
+			float OuterContourWidth = 2,
+			Vec4 ConvexMeshColor = [0, 0, 1, 0.5],
+			Vec4 ConvexMeshEdgeColor = [0, 1, 0, 1],
+			float ConvexMeshWidth = 0,
+			float ControlPointSize = 8,
+			float ControlPointSnappingSize = 10,
+			bool DebuggingMode = false,
+		},
+		CurveEditor_ = 
+		{
+			float ControlPointSize = 8,
+			float TangentSize = 4,
+			float TangentLineSize = 1.5,
+			float SelectionScale = 2.75,
+			Vec4 SelectedColor = [1, 1, 1, 1],
+		},
+		Interaction_ = 
+		{
+			bool DebugTextArea = false,
+			float MouseHoldTime = 0.100000001,
+			float MouseHoverTime = 0.300000012,
+			float DoubleClickTime = 0.300000012,
+			float MouseDragDistance = 8,
+			bool DebugMouseInteraction = false,
+			bool DebugMouseEvents = false,
+		},
+		ListControls_ = 
+		{
+			Vec4 BackgroundColor = [0.392156988, 0.392156988, 0.392156988, 1],
+			Vec4 BorderColor = [0.239216, 0.239216, 0.239216, 1],
+			Vec4 FocusBorderColor = [0.196078002, 0.529411972, 0.917647004, 1],
+			Vec4 ListPrimaryColor = [0.239216, 0.239216, 0.239216, 1],
+			Vec4 ListSecondaryColor = [0.258823991, 0.258823991, 0.258823991, 1],
+			Vec4 ListBackgroundColor = [0.258823991, 0.258823991, 0.258823991, 1],
+		},
+		LoadingWindow_ = 
+		{
+			Vec4 BackgroundColor = [0.258823991, 0.258823991, 0.258823991, 1],
+			Vec4 BorderColor = [0.180391997, 0.180391997, 0.180391997, 1],
+			Vec2 Size = [400, 240],
+			Vec4 TextColor = [0.949999988, 0.949999988, 0.949999988, 0.999899983],
+		},
+		LogicGraph_ = 
+		{
+			float EdgeArrowSize = 5,
+			Vec4 NodeColor = [0.188235, 0.188235, 0.188235, 0.899999976],
+			Vec4 NodeHighlightColor = [0.247059003, 0.407842994, 0.541176021, 0.600000024],
+			Vec4 NodeErrorColor = [1, 0, 0, 1],
+			Vec4 NodeSelectColor = [0, 0.501960993, 0.92156899, 0.600000024],
+			float RowWidth = 120,
+			Vec4 RowColor = [0, 0, 0, 0],
+			Vec4 RowOffColor = [0, 0, 0, 0.100000001],
+			float SocketSize = 16,
+			Vec4 SocketColor = [1, 1, 1, 1],
+			Vec4 SocketHoverColor = [0, 0.501960993, 0.92156899, 1],
+			Vec4 SocketBackgroundColor = [0.188235, 0.188235, 0.188235, 0.100000001],
+			float SocketArrowSize = 4,
+		},
+		MainWindow_ = 
+		{
+			Vec4 TitleBarColor = [0.164706007, 0.164706007, 0.164706007, 1],
+			Vec4 BorderColor = [0.117647, 0.117647, 0.117647, 1],
+			Vec2 BorderPadding = [2, 2],
+			Vec4 ButtonColor = [0.164706007, 0.164706007, 0.164706007, 1],
+			Vec4 ButtonHover = [0.234999999, 0.234999999, 0.234999999, 1],
+			Vec4 ButtonClick = [0.0599999987, 0.0599999987, 0.0599999987, 1],
+			Vec4 CloseColor = [0.615685999, 0.180391997, 0.0509804003, 1],
+			Vec4 CloseHover = [0.709999979, 0.208026007, 0.0587897003, 1],
+			Vec4 CloseClick = [0.504999995, 0.147962004, 0.0418152995, 1],
+		},
+		Modal_ = 
+		{
+			Vec4 BackgroundColor = [0, 0, 0, 0.800000012],
+			Vec4 StipColor = [0.494118005, 0.180391997, 0, 1],
+			float StripHeight = 64,
+			Vec4 TextColor = [0.839215994, 0.839215994, 0.839215994, 1],
+			ModalStrip_ = 
+			{
+				Vec4 StipColor = [0.494118005, 0.180391997, 0, 1],
+				float StripHeight = 64,
+			},
+		},
+		Net_ = 
+		{
+			Vec4 DisabledNetPropertyIcon = [0.65882355, 0.65882355, 0.65882355, 1],
+			Vec4 EnabledNetPropertyIcon = [0.533333361, 0.80392164, 1, 1],
+		},
+		NodeGraph_ = 
+		{
+			Vec4 NodeColor = [0.188235, 0.188235, 0.188235, 1],
+			Vec4 NodeHighlightColor = [0.247059003, 0.407842994, 0.541176021, 1],
+			Vec4 NodeErrorColor = [1, 0, 0, 1],
+			Vec4 NodeSelectColor = [0, 0.501960993, 0.92156899, 1],
+			Vec2 SocketSize = [30, 18],
+			Vec4 SocketColor = [0.188235, 0.188235, 0.188235, 1],
+			Vec4 SocketTextColor = [1, 1, 1, 1],
+			Vec4 BorderColor = [0.180391997, 0.180391997, 0.180391997, 1],
+			Vec4 EdgeColor = [1, 1, 1, 1],
+			Vec4 EdgeErrorColor = [1, 0, 0, 1],
+			Vec4 EdgeHighlightColor = [0.247059003, 0.407842994, 0.541176021, 1],
+			Vec4 EdgeSelectColor = [0, 0.501960993, 0.92156899, 1],
+			Vec4 EdgeRunningColor = [1, 1, 1, 1],
+			float EdgeWidth = 1.5,
+			float EdgeExtrudeLength = 120,
+			uint EdgeResolution = 10,
+			float EdgeHitTestDistance = 6,
+			uint EdgeHitTestResolution = 5,
+			float FocusPanTime = 0.400000006,
+			Vec4 NodeHeaderColor = [0.170000002, 0.170000002, 0.170000002, 1],
+			Vec4 HeaderTextColor = [0.769999981, 0.769999981, 0.769999981, 1],
+			Vec4 EditableHeaderTextColor = [1, 1, 1, 1],
+		},
+		Notification_ = 
+		{
+			Vec4 BackgroundColor = [0.392156988, 0.392156988, 0.392156988, 1],
+			Vec4 BorderColor = [0.180391997, 0.180391997, 0.180391997, 1],
+		},
+		ObjectView_ = 
+		{
+			Vec4 SearchIconColor = [0.180000007, 0.180000007, 0.180000007, 1],
+		},
+		PreviewWidgets_ = 
+		{
+			Vec2 DefaultSize = [130, 130],
+			Vec2 ColorGradientSize = [170, 30],
+			Vec2 SpacePreviewSize = [130, 130],
+		},
+		ProjectDialog_ = 
+		{
+			Vec4 TabAreaColor = [0.294117987, 0.294117987, 0.294117987, 1],
+			Vec4 ProjectAreaColor = [0.180391997, 0.180391997, 0.180391997, 1],
+			Vec4 MouseOverTabColor = [0.180391997, 0.180391997, 0.180391997, 0.344999999],
+			Vec4 BorderColor = [0.117647, 0.117647, 0.117647, 1],
+		},
+		PropertyView_ = 
+		{
+			float PropertySize = 18,
+			float PropertySpacing = 2,
+			float IndentSize = 10,
+			Component_ = 
+			{
+				Vec4 TitleColor = [0.294117987, 0.294117987, 0.294117987, 1],
+				Vec4 TitleHighlight = [0.368627012, 0.368627012, 0.368627012, 1],
+				Vec4 TitleRemove = [0.435294002, 0.184313998, 0.184313998, 1],
+				Vec4 BackgroundColor = [0.31764701, 0.31764701, 0.31764701, 1],
+				Vec4 BackgroundRemove = [0.31764701, 0.252528995, 0.252528995, 1],
+				Vec4 ErrorPopUpColor = [0.74901998, 0.184313998, 0.184313998, 1],
+				float OpenTime = 0.0599999987,
+				float MaxToolTipWidth = 275,
+			},
+			Editors_ = 
+			{
+				Vec4 ColorWidgetHighlight = [0.180391997, 0.180391997, 0.180391997, 1],
+				float VectorElementMinSize = 80,
+				bool ElementLables = false,
+				Vec4 ResourceEditColor = [0.505882025, 0.505882025, 0.505882025, 1],
+				Vec4 ResourceEditMouseOver = [0.625, 0.625, 0.625, 1],
+				float CogPathPickerIndent = 8,
+				float CogPathCogLabelMinWidth = 12,
+				float CogPathCogLabelSpace = 20,
+			},
+		},
+		ResourceEditors_ = 
+		{
+			SampleCurve_ = 
+			{
+				Vec4 PrimaryLineColor = [0.125, 0.125, 0.125, 1],
+				float PrimaryLineWidth = 1,
+				Vec4 SecondaryLineColor = [0.224999994, 0.224999994, 0.224999994, 1],
+				float SecondaryLineWidth = 1,
+			},
+		},
+		ScriptEditor_ = 
+		{
+			Vec4 AutoCompleteConfident = [0.0725999996, 0.605000019, 0.0725999996, 1],
+			Vec4 AutoCompleteNonConfident = [0.595000029, 0.0892499983, 0.0892499983, 1],
+			Vec2 CallTipTextSize = [500, 400],
+			Vec2 AutoCompleteSize = [250, 200],
+			Vec2 AutoCompleteTextSize = [500, 200],
+		},
+		SearchView_ = 
+		{
+			Vec4 BackgroundColor = [0.258823991, 0.258823991, 0.258823991, 1],
+			Vec4 PrimaryColor = [0.239216, 0.239216, 0.239216, 1],
+			Vec4 SecondaryColor = [0.258823991, 0.258823991, 0.258823991, 1],
+			Vec4 HoverColor = [0.245700002, 0.407564998, 0.540000021, 1],
+			Vec4 InvalidTextColor = [1, 1, 1, 0.349999994],
+			Vec4 InvalidTipBorder = [0.985000014, 0.265949994, 0.265949994, 1],
+			float RowSize = 18,
+		},
+		ShaderGraph_ = 
+		{
+			float RowWidth = 80,
+			Vec4 RowColor = [0, 0, 0, 0],
+			Vec4 RowOffColor = [0, 0, 0, 0.100000001],
+			float SocketSize = 16,
+			Vec4 SocketTextColor = [1, 1, 1, 1],
+			Vec4 SocketHoverColor = [0, 0.501960993, 0.92156899, 1],
+			Vec4 SocketBackgroundColor = [0.258823991, 0.258823991, 0.258823991, 0],
+			float SocketCircleSize = 3,
+			float SocketCircleLineWidth = 1,
+			Vec4 BackgroundColor = [0.258823991, 0.258823991, 0.258823991, 0.800000012],
+			ToolBox_ = 
+			{
+				Vec4 BackgroundColor = [0.258823991, 0.258823991, 0.258823991, 1],
+				Vec4 ItemColor = [0.258823991, 0.258823991, 0.258823991, 1],
+				Vec4 ItemHighlight = [0.368627012, 0.368627012, 0.368627012, 1],
+				float ItemHeight = 25,
+			},
+		},
+		TileView_ = 
+		{
+			Vec4 BorderColor = [0.075000003, 0.0164999999, 0.0164999999, 1],
+			Vec4 SelectedBorderColor = [0.181125, 0.397233009, 0.574999988, 1],
+			Vec4 MouseOverBorderColor = [0.191699997, 0.475143999, 0.709999979, 1],
+			float StartingTileSize = 100,
+			float MinTileSize = 60,
+			float MaxTileSize = 200,
+			float TilePadding = 5,
+			float MaxDragScrollSpeed = 15,
+			float DragScrollSize = 30,
+		},
+		TreeView_ = 
+		{
+			Vec4 HeaderColor = [0.258823991, 0.258823991, 0.258823991, 1],
+			Vec4 HeaderHighlight = [0.335000008, 0.335000008, 0.335000008, 1],
+			Vec4 ColumnSeparatorColor = [0.185000002, 0.185000002, 0.185000002, 1],
+			float ItemHeight = 18,
+			float ItemSpacing = 2,
+			float IndentSize = 8,
+			float MaxDragScrollSpeed = 15,
+			float DragScrollSize = 30,
+			float DragInsertSize = 5,
+			InvalidRows_ = 
+			{
+				Vec4 PrimaryColor = [0.337255001, 0.247059003, 0.239216, 1],
+				Vec4 SecondaryColor = [0.356862992, 0.266667008, 0.258823991, 1],
+				Vec4 MouseOverColor = [0.541176021, 0.247059003, 0.247235, 1],
+				Vec4 SelectedColor = [0.819999993, 0.180399999, 0.180784002, 0.300000012],
+				Vec4 ToolTipColor = [0.904999971, 0.230774999, 0.230774999, 1],
+			},
+			ValidRows_ = 
+			{
+				Vec4 PrimaryColor = [0.239216, 0.239216, 0.239216, 1],
+				Vec4 SecondaryColor = [0.258823991, 0.258823991, 0.258823991, 1],
+				Vec4 MouseOverColor = [0.247059003, 0.407842994, 0.541176021, 0.810000002],
+				Vec4 SelectedColor = [0, 0.501960993, 0.92156899, 0.270000011],
+				Vec4 ToolTipColor = [1, 1, 1, 1],
+			},
+		},
+		Viewport_ = 
+		{
+			bool EditorViewportAutoTakeFocus = true,
+			float DragSelectDistance = 5,
+			Vec4 BorderColor = [0.180391997, 0.180391997, 0.180391997, 0.999899983],
+			ViewportMenu_ = 
+			{
+				float MouseOffTransparency = 0.5,
+				float MouseOffSpeed = 0.100000001,
+				Vec4 BackgroundColor = [0, 0, 0, 0.219999999],
+				float Height = 22,
+			},
+		},
+		Window_ = 
+		{
+			Vec4 TitleBarColor = [0.117647, 0.117647, 0.117647, 1],
+			Vec4 TabbedTitleBarColor = [0.117647, 0.117647, 0.117647, 1],
+			Vec4 TitleBarXColor = [0.479999989, 0.479999989, 0.479999989, 1],
+			Vec4 TitleBarXHighlight = [0.714999974, 0.714999974, 0.714999974, 1],
+			Vec4 SelectedTabColor = [0.258823991, 0.258823991, 0.258823991, 1],
+			Vec4 FocusedTabColor = [0.258823991, 0.258823991, 0.258823991, 1],
+			Vec4 MouseOverTabColor = [0.219999999, 0.219999999, 0.219999999, 1],
+			Vec4 DeSelectedTabColor = [0.189999998, 0.189999998, 0.189999998, 1],
+			Vec4 TabXColor = [0.74000001, 0.74000001, 0.74000001, 1],
+			Vec4 TabXHighlight = [1, 1, 1, 1],
+			Vec4 BackgroundColor = [0.258823991, 0.258823991, 0.258823991, 1],
+			Vec4 BorderColor = [0.180391997, 0.180391997, 0.180391997, 1],
+			float TitleBarHeight = 20,
+			float CloseSize = 16,
+			Vec2 BorderSize = [5, 4],
+		},
+	},
+},

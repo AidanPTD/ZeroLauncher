@@ -1,0 +1,7 @@
+ContentLibrary = 
+{
+	string Name = "ZeroLauncherResources",
+	uint64 LibraryId = 5498570a83d25ea1,
+	string SourceControlType = "",
+	bool ReadOnly = false,
+},

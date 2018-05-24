@@ -1,0 +1,8 @@
+FontContent =
+{
+	FontBuilder =
+	{
+		string Name = "VerdanaBold",
+		uint64 ResourceId = 4e7e2de9e6e11d16,
+	},
+},

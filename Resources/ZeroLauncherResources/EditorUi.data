@@ -1,0 +1,1121 @@
+DefinitionSet = 
+{
+	ImageDefinition Target =
+	{
+		string Texture = "EditorUi",
+		int ImageMode = 0,
+		float[] Uv0 = [ 223, 136 ],
+		float[] Uv1 = [ 16 , 16 ],
+	},
+	
+	ImageDefinition WhiteX =
+	{
+		string Texture = "EditorUi",
+		int ImageMode = 0,
+		float[] Uv0 = [ 240, 136 ],
+		float[] Uv1 = [ 16 , 16 ],
+	},
+	
+	ImageDefinition TitleDown =
+	{
+		string Texture = "EditorUi",
+		int ImageMode = 0,
+		float[] Uv0 = [ 206, 136 ],
+		float[] Uv1 = [ 16 , 16 ],
+	},
+	
+	ImageDefinition TitleMinimize =
+	{
+		string Texture = "EditorUi",
+		int ImageMode = 0,
+		float[] Uv0 = [ 138, 136 ],
+		float[] Uv1 = [ 16 , 16 ],
+	},
+	
+	ImageDefinition TitleRestore =
+	{
+		string Texture = "EditorUi",
+		int ImageMode = 0,
+		float[] Uv0 = [ 155, 136 ],
+		float[] Uv1 = [ 16 , 16 ],
+	},
+	
+	ImageDefinition TitleMaximize =
+	{
+		string Texture = "EditorUi",
+		int ImageMode = 0,
+		float[] Uv0 = [ 172, 136 ],
+		float[] Uv1 = [ 16 , 16 ],
+	},
+	
+	ImageDefinition TitleClose =
+	{
+		string Texture = "EditorUi",
+		int ImageMode = 0,
+		float[] Uv0 = [ 189, 136 ],
+		float[] Uv1 = [ 16 , 16 ],
+	},
+	
+	SlicedDefinition DropShadow =
+	{
+		string Texture = "EditorUi",
+		float[] Uv0 = [ 30 , 86 ],
+		float[] Uv1 = [ 24 , 24 ],
+		float[] Slices = [ 6, 6, 6, 6 ] ,
+	},
+	
+	SlicedDefinition Sizer =
+	{
+		string Texture = "EditorUi",
+		float[] Uv0 = [ 240 , 240 ],
+		float[] Uv1 = [ 5 , 5 ],
+		float[] Slices = [ 1, 1, 1, 1 ] ,
+	},
+	
+	TextDefinition TitleText =
+	{
+		string FontName = "VerdanaBold",
+		float FontSize = 11,
+		float[] FontColor = [.925,.925,.925,1],
+	},
+	
+	TextDefinition BoldText =
+	{
+		string FontName = "VerdanaBold",
+		float FontSize = 11,
+		float[] FontColor = [.925,.925,.925,1],
+	},
+	
+	ImageDefinition Close =
+	{
+		string Texture = "EditorUi",
+		int ImageMode = 0,
+		float[] Uv0 = [ 44 , 192 ],
+		float[] Uv1 = [ 10 , 10 ],
+	},
+	
+	SlicedDefinition WhiteSquare =
+	{
+		string Texture = "EditorUi",
+		float[] Uv0 = [ 115 , 87 ],
+		float[] Uv1 = [ 22 , 22 ],
+		float[] Slices = [ 0, 0, 0, 0 ] ,
+	},
+	
+	SlicedDefinition WhiteSquareBorder =
+	{
+		string Texture = "EditorUi",
+		float[] Uv0 = [ 170 , 86 ],
+		float[] Uv1 = [ 24 , 24 ],
+		float[] Slices = [ 2, 2, 2, 2 ] ,
+	},
+	
+	SlicedDefinition WhiteSquareWithBorder =
+	{
+		string Texture = "EditorUi",
+		float[] Uv0 = [ 198 , 86 ],
+		float[] Uv1 = [ 24 , 24 ],
+		float[] Slices = [ 2, 2, 2, 2 ] ,
+	},
+	
+	ImageDefinition IndicatorArrow =
+	{
+		string Texture = "EditorUi",
+		int ImageMode = 0,
+		float[] Uv0 = [ 112 , 201 ],
+		float[] Uv1 = [ 8 , 14 ],
+	},
+	
+	ImageDefinition IndicatorArrowBorder =
+	{
+		string Texture = "EditorUi",
+		int ImageMode = 0,
+		float[] Uv0 = [ 121 , 201 ],
+		float[] Uv1 = [ 8 , 14 ],
+	},
+	
+	ImageDefinition Modified =
+	{
+		string Texture = "ObjectIcons",
+		int ImageMode = 0,
+		float[] Uv0 = [ 84 , 36 ],
+		float[] Uv1 = [ 8 , 8 ],
+	},
+	
+	TextDefinition ModalConfirmTitle =
+	{
+		string FontName = "VerdanaBold",
+		float FontSize = 30,
+		float[] FontColor = [1,1,1,1],
+	},
+  
+	TextDefinition ModalConfirmExtraText =
+	{
+		string FontName = "VerdanaBold",
+		float FontSize = 20,
+		float[] FontColor = [1,1,1,1],
+	},
+	
+	TextDefinition ModalConfirmButton =
+	{
+		string FontName = "VerdanaBold",
+		float FontSize = 14,
+		float[] FontColor = [1,1,1,1],
+	},
+	
+	DefinitionSet ColorPicker = 
+	{
+		TextDefinition Text =
+		{
+			string FontName = "Verdana",
+			float FontSize = 11,
+			float[] FontColor = [.925,.925,.925,1],
+		},
+	}
+	
+	ImageDefinition Caution =
+	{
+		string Texture = "ToolBarIcons",
+		int ImageMode = 0,
+		float[] Uv0 = [ 0, 96 ],
+		float[] Uv1 = [ 16 , 16 ],
+	},
+	
+	ImageDefinition WarningIcon =
+	{
+		string Texture = "ToolBarIcons",
+		int ImageMode = 0,
+		float[] Uv0 = [ 48, 80 ],
+		float[] Uv1 = [ 16 , 16 ],
+	},
+	
+	TextDefinition Text =
+	{
+		string FontName = "Verdana",
+		float FontSize = 11,
+		float[] FontColor = [.925,.925,.925,1],
+	},
+	
+	ImageDefinition PreviousObject =
+	{
+		string Texture = "ToolIcons",
+		int ImageMode = 0,
+		float[] Uv0 = [ 0 , 208 ],
+		float[] Uv1 = [ 16 , 16 ],
+	},
+	
+	ImageDefinition NextObject =
+	{
+		string Texture = "ToolIcons",
+		int ImageMode = 0,
+		float[] Uv0 = [ 16 , 208 ],
+		float[] Uv1 = [ 16 , 16 ],
+	},
+	
+	ImageDefinition ShowObject =
+	{
+		string Texture = "ToolIcons",
+		int ImageMode = 0,
+		float[] Uv0 = [ 32 , 208 ],
+		float[] Uv1 = [ 16 , 16 ],
+	},
+	
+	ImageDefinition RecentObjects =
+	{
+		string Texture = "ToolIcons",
+		int ImageMode = 0,
+		float[] Uv0 = [ 48 , 208 ],
+		float[] Uv1 = [ 16 , 16 ],
+	},
+	
+	ImageDefinition ExternalEdit =
+	{
+		string Texture = "ToolIcons",
+		int ImageMode = 0,
+		float[] Uv0 = [ 64 , 208 ],
+		float[] Uv1 = [ 16 , 16 ],
+	},
+	
+	ImageDefinition ReloadContent =
+	{
+		string Texture = "ToolIcons",
+		int ImageMode = 0,
+		float[] Uv0 = [ 80 , 208 ],
+		float[] Uv1 = [ 16 , 16 ],
+	},
+	
+	ImageDefinition Upload =
+	{
+		string Texture = "ToolIcons",
+		int ImageMode = 0,
+		float[] Uv0 = [ 96, 208 ],
+		float[] Uv1 = [ 16 , 16 ],
+	},
+	
+	ImageDefinition Revert =
+	{
+		string Texture = "ToolIcons",
+		int ImageMode = 0,
+		float[] Uv0 = [ 112 , 208 ],
+		float[] Uv1 = [ 16 , 16 ],
+	},
+	
+	ImageDefinition ResourceIcon =
+	{
+		string Texture = "ToolIcons",
+		int ImageMode = 0,
+		float[] Uv0 = [ 48 , 224 ],
+		float[] Uv1 = [ 16 , 16 ],
+	},
+    
+    ImageDefinition CheckIcon =
+	{
+		string Texture = "EditorUi",
+		int ImageMode = 0,
+		float[] Uv0 = [ 170 , 18 ],
+		float[] Uv1 = [ 9 , 8 ],
+	},
+	
+	DefinitionSet Window = 
+	{
+		TextDefinition Text =
+		{
+			string FontName = "Verdana",
+			float FontSize = 11,
+			float[] FontColor = [.925,.925,.925,1],
+		},
+		
+		SlicedDefinition Background =
+		{
+			string Texture = "EditorUi",
+			float[] Uv0 = [ 138 , 180 ],
+			float[] Uv1 = [ 64 , 64 ],
+			float[] Slices = [ 6, 24, 6, 6 ] ,
+		},
+		
+		ImageDefinition Close =
+		{
+			string Texture = "EditorUi",
+			int ImageMode = 0,
+			float[] Uv0 = [ 44 , 192 ],
+			float[] Uv1 = [ 7 , 7 ],
+		},
+		
+		SlicedDefinition Border =
+		{
+			string Texture = "EditorUi",
+			float[] Uv0 = [ 142 , 86 ],
+			float[] Uv1 = [ 24 , 24 ],
+			float[] Slices = [ 4, 4, 4, 4] ,
+		},
+	},
+
+	
+	DefinitionSet Tab = 
+	{
+		TextDefinition Text =
+		{
+			string FontName = "Verdana",
+			float FontSize = 11,
+			float[] FontColor = [.925,.925,.925,1],
+		},
+		
+		SlicedDefinition Background =
+		{
+			string Texture = "EditorUi",
+			float[] Uv0 = [ 70 , 180 ],
+			float[] Uv1 = [ 64 , 19 ],
+			float[] Slices = [ 6, 4, 6, 4 ] ,
+		},
+		
+		SlicedDefinition BackgroundOff =
+		{
+			string Texture = "EditorUi",
+			float[] Uv0 = [ 138 , 114 ],
+			float[] Uv1 = [ 64 , 19 ],
+			float[] Slices = [ 6, 4, 6, 4 ] ,
+		},
+		
+		ImageDefinition Close =
+		{
+			string Texture = "EditorUi",
+			int ImageMode = 0,
+			float[] Uv0 = [ 44 , 192 ],
+			float[] Uv1 = [ 10 , 10 ],
+		},
+	},
+		
+	DefinitionSet Tags = 
+	{
+		TextDefinition TagText =
+		{
+			string FontName = "Verdana",
+			float FontSize = 11,
+			float[] FontColor = [.925,.925,.925,1],
+		},
+		
+		SlicedDefinition TagBoxBackground =
+		{
+			string Texture = "EditorUi",
+			float[] Uv0 = [ 2 , 2 ],
+			float[] Uv1 = [ 24 , 24 ],
+			float[] Slices = [ 2, 2, 2, 2 ] ,
+		},
+		
+		SlicedDefinition TagImage =
+		{
+			string Texture = "ObjectIcons",
+			float[] Uv0 = [ 48 , 112 ],
+			float[] Uv1 = [ 16 , 16 ],
+			float[] Slices = [ 3, 6, 9, 6 ] ,
+		},
+		
+		ImageDefinition TagDeleteIcon =
+		{
+			string Texture = "ObjectIcons",
+			int ImageMode = 0,
+			float[] Uv0 = [ 64 , 112 ],
+			float[] Uv1 = [ 16 , 16 ],
+		},
+	},
+
+	DefinitionSet ProjectDialog = 
+	{
+		TextDefinition Text =
+		{
+			string FontName = "Verdana",
+			float FontSize = 11,
+			float[] FontColor = [.925,.925,.925,1],
+		},
+		
+		SlicedDefinition TabHighlightBorder =
+		{
+			string Texture = "EditorUi",
+			float[] Uv0 = [ 171 , 86 ],
+			float[] Uv1 = [ 22 , 24 ],
+			float[] Slices = [ 2, 2, 2, 2 ] ,
+		},
+
+		SlicedDefinition BackgroundDark =
+		{
+			string Texture = "EditorUi",
+			float[] Uv0 = [ 30 , 2 ],
+			float[] Uv1 = [ 24 , 24 ],
+			float[] Slices = [ 2, 2, 2, 2 ] ,
+		},
+
+		SlicedDefinition TabHighlight =
+		{
+			string Texture = "EditorUi",
+			float[] Uv0 = [ 31 , 2 ],
+			float[] Uv1 = [ 22 , 24 ],
+			float[] Slices = [ 2, 2, 2, 2 ] ,
+		},
+
+		SlicedDefinition Highlight =
+		{
+			string Texture = "EditorUi",
+			float[] Uv0 = [ 58 , 58 ],
+			float[] Uv1 = [ 24 , 24 ],
+			float[] Slices = [ 2, 2, 2, 2 ] ,
+		},
+
+		SlicedDefinition SubHighlight =
+		{
+			string Texture = "EditorUi",
+			float[] Uv0 = [ 114 , 58 ],
+			float[] Uv1 = [ 24 , 24 ],
+			float[] Slices = [ 2, 2, 2, 2 ] ,
+		},
+
+		ImageDefinition Item =
+		{
+			string Texture = "LargeIcons",
+			int ImageMode = 0,
+			float[] Uv0 = [ 67 , 65 ],
+			float[] Uv1 = [ 27 , 31 ],
+		},
+	},
+
+	ImageDefinition GridIcon =
+	{
+		string Texture = "ToolIcons",
+		int ImageMode = 0,
+		float[] Uv0 = [ 16 , 224 ],
+		float[] Uv1 = [ 16 , 16 ],
+	},
+	
+	ImageDefinition TreeIcon =
+	{
+		string Texture = "ToolIcons",
+		int ImageMode = 0,
+		float[] Uv0 = [ 0 , 224 ],
+		float[] Uv1 = [ 16 , 16 ],
+	},
+	
+	ImageDefinition Tag =
+	{
+		string Texture = "ObjectIcons",
+		int ImageMode = 0,
+		float[] Uv0 = [ 16 , 112 ],
+		float[] Uv1 = [ 16 , 16 ],
+	},
+	
+	ImageDefinition Minimize =
+	{
+		string Texture = "ObjectIcons",
+		int ImageMode = 0,
+		float[] Uv0 = [ 32 , 48 ],
+		float[] Uv1 = [ 16 , 16 ],
+	},
+		
+	DefinitionSet ItemPopUp = 
+	{
+		TextDefinition Text =
+		{
+			string FontName = "Verdana",
+			float FontSize = 11,
+			float[] FontColor = [.925,.925,.925,1],
+		},
+		
+		SlicedDefinition Background =
+		{
+			string Texture = "EditorUi",
+			float[] Uv0 = [ 2 , 2 ],
+			float[] Uv1 = [ 24 , 24 ],
+			float[] Slices = [ 2, 2, 2, 2] ,
+		},
+	}
+	
+	DefinitionSet ItemPopUpLight = 
+	{
+		TextDefinition Text =
+		{
+			string FontName = "Verdana",
+			float FontSize = 11,
+			float[] FontColor = [.925,.925,.925,1],
+		},
+		
+		SlicedDefinition Background =
+		{
+			string Texture = "EditorUi",
+			float[] Uv0 = [ 58 , 30 ],
+			float[] Uv1 = [ 24 , 24 ],
+			float[] Slices = [ 2, 2, 2, 2] ,
+		},
+	}
+	
+	DefinitionSet ItemGrid = 
+	{
+		TextDefinition Text =
+		{
+			string FontName = "Verdana",
+			float FontSize = 11,
+			float[] FontColor = [.925,.925,.925,1],
+		},
+		
+		SlicedDefinition Background =
+		{
+			string Texture = "EditorUi",
+			float[] Uv0 = [ 2 , 2 ],
+			float[] Uv1 = [ 24 , 24 ],
+			float[] Slices = [ 2, 2, 2, 2] ,
+		},
+		
+	}
+	
+	
+	DefinitionSet TextButton = 
+	{
+		TextDefinition Text =
+		{
+			string FontName = "Verdana",
+			float FontSize = 11,
+			float[] FontColor = [.925,.925,.925,1],
+		},
+		
+		SlicedDefinition Background =
+		{
+			string Texture = "EditorUi",
+			float[] Uv0 = [ 58 , 30 ],
+			float[] Uv1 = [ 24 , 24 ],
+			float[] Slices = [ 4, 4, 4, 4 ] ,
+		},
+		
+		SlicedDefinition BackgroundDown =
+		{
+			string Texture = "EditorUi",
+			float[] Uv0 = [ 86 , 30 ],
+			float[] Uv1 = [ 24 , 24 ],
+			float[] Slices = [ 4, 4, 4, 4 ] ,
+		},
+		
+		SlicedDefinition BackgroundOver =
+		{
+			string Texture = "EditorUi",
+			float[] Uv0 = [ 114 , 30 ],
+			float[] Uv1 = [ 24 , 24 ],
+			float[] Slices = [ 4, 4, 4, 4 ] ,
+		},
+	},
+	
+	DefinitionSet IconTextBox = 
+	{
+		TextDefinition Text =
+		{
+			string FontName = "Verdana",
+			float FontSize = 11,
+			float[] FontColor = [.925,.925,.925,1],
+		},
+		
+		SlicedDefinition Background =
+		{
+			string Texture = "EditorUi",
+			float[] Uv0 = [ 2 , 58 ],
+			float[] Uv1 = [ 24 , 24 ],
+			float[] Slices = [ 18, 3, 3, 3 ] ,
+		},
+		
+		SlicedDefinition BackgroundFocus =
+		{
+			string Texture = "EditorUi",
+			float[] Uv0 = [ 30 , 58 ],
+			float[] Uv1 = [ 24 , 24 ],
+			float[] Slices = [ 18, 3, 3, 3 ] ,
+		},
+	},
+	DefinitionSet TextBox = 
+	{
+		TextDefinition Text =
+		{
+			string FontName = "Verdana",
+			float FontSize = 11,
+			float[] FontColor = [.925,.925,.925,1],
+		},
+		
+		SlicedDefinition Background =
+		{
+			string Texture = "EditorUi",
+			float[] Uv0 = [ 2 , 58 ],
+			float[] Uv1 = [ 24 , 24 ],
+			float[] Slices = [ 3, 3, 3, 3 ] ,
+		},
+		
+		SlicedDefinition BackgroundFocus =
+		{
+			string Texture = "EditorUi",
+			float[] Uv0 = [ 30 , 58 ],
+			float[] Uv1 = [ 24 , 24 ],
+			float[] Slices = [ 3, 3, 3, 3 ] ,
+		},
+	},
+	
+	DefinitionSet Sash = 
+	{
+		SlicedDefinition Background =
+		{
+			string Texture = "EditorUi",
+			float[] Uv0 = [ 2 , 125 ],
+			float[] Uv1 = [ 64 , 53 ],
+			float[] Slices = [ 2, 2, 2, 2 ] ,
+		},
+	},
+	
+	DefinitionSet Label = 
+	{
+		TextDefinition Text =
+		{
+			string FontName = "Verdana",
+			float FontSize = 12,
+			float[] FontColor = [.925,.925,.925,1],
+		},
+		
+		SlicedDefinition Background =
+		{
+			string Texture = "EditorUi",
+			float[] Uv0 = [ 2 , 58 ],
+			float[] Uv1 = [ 24 , 24 ],
+			float[] Slices = [ 3, 3, 3, 3 ] ,
+		},
+	},
+	
+	DefinitionSet Slider = 
+	{
+		ImageDefinition Grip =
+		{
+			string Texture = "EditorUi",
+			int ImageMode = 0,
+			float[] Uv0 = [ 170 , 2 ],
+			float[] Uv1 = [ 10 , 10 ],
+		},
+		
+		ImageDefinition GripOver =
+		{
+			string Texture = "EditorUi",
+			int ImageMode = 0,
+			float[] Uv0 = [ 170 , 2 ],
+			float[] Uv1 = [ 10 , 10 ],
+		},
+		
+		SlicedDefinition Background =
+		{
+			string Texture = "EditorUi",
+			float[] Uv0 = [ 184 , 2 ],
+			float[] Uv1 = [ 10 , 10 ],
+			float[] Slices = [ 2, 2, 2, 2 ] ,
+		},
+		
+		SlicedDefinition Border =
+		{
+			string Texture = "EditorUi",
+			float[] Uv0 = [ 142 , 2 ],
+			float[] Uv1 = [ 24 , 24 ],
+			float[] Slices = [ 4, 4, 4, 4 ] ,
+		},
+	}
+	
+	DefinitionSet ListBox = 
+	{
+		TextDefinition Text =
+		{
+			string FontName = "Verdana",
+			float FontSize = 11,
+			float[] FontColor = [.925,.925,.925,1],
+		},
+		TextDefinition TextHighlight =
+		{
+			string FontName = "Verdana",
+			float FontSize = 11,
+			float[] FontColor = [0.75,0.1,0.1,1],
+		},
+		TextDefinition SelectedText =
+		{
+			string FontName = "Verdana",
+			float FontSize = 11,
+			float[] FontColor = [.925,.925,.925,1],
+		},
+		SlicedDefinition Background =
+		{
+			string Texture = "EditorUi",
+			float[] Uv0 = [ 2 , 58 ],
+			float[] Uv1 = [ 24 , 24 ],
+			float[] Slices = [ 3, 3, 3, 3 ] ,
+		},
+		SlicedDefinition Border =
+		{
+			string Texture = "EditorUi",
+			float[] Uv0 = [ 86 , 2 ],
+			float[] Uv1 = [ 24 , 24 ],
+			float[] Slices = [ 1, 1, 1, 1 ] ,
+		},
+		SlicedDefinition HiLightBox =
+		{
+			string Texture = "EditorUi",
+			float[] Uv0 = [ 58 , 58 ],
+			float[] Uv1 = [ 24 , 24 ],
+			float[] Slices = [ 2, 2, 2, 2 ] ,
+		},
+		SlicedDefinition SelectionBox =
+		{
+			string Texture = "EditorUi",
+			float[] Uv0 = [ 86 , 58 ],
+			float[] Uv1 = [ 24 , 24 ],
+			float[] Slices = [ 2, 2, 2, 2 ] ,
+		},
+	}
+
+	DefinitionSet CheckBox = 
+	{
+		TextDefinition Text =
+		{
+			string FontName = "Verdana",
+			float FontSize = 11,
+			float[] FontColor = [.925,.925,.925,1],
+		},
+		
+		SlicedDefinition Background =
+		{
+			string Texture = "EditorUi",
+			float[] Uv0 = [ 30 , 2 ],
+			float[] Uv1 = [ 24 , 24 ],
+			float[] Slices = [ 2, 2, 2, 2 ] ,
+		},
+		
+		ImageDefinition Icon =
+		{
+			string Texture = "EditorUi",
+			int ImageMode = 0,
+			float[] Uv0 = [ 83 , 200 ],
+			float[] Uv1 = [ 8 , 8 ],
+		},
+		
+		ImageDefinition InvalidIcon =
+		{
+			string Texture = "EditorUi",
+			int ImageMode = 0,
+			float[] Uv0 = [ 44 , 201 ],
+			float[] Uv1 = [ 8 , 8 ],
+		},
+	},	
+	
+	DefinitionSet ComboBox = 
+	{
+		TextDefinition Text =
+		{
+			string FontName = "Verdana",
+			float FontSize = 11,
+			float[] FontColor = [.925,.925,.925,1],
+		},
+		
+		SlicedDefinition Background =
+		{
+			string Texture = "EditorUi",
+			float[] Uv0 = [ 2 , 58 ],
+			float[] Uv1 = [ 24 , 24 ],
+			float[] Slices = [ 3, 3, 3, 3 ] ,
+		},
+		ImageDefinition DownArrow =
+		{
+			string Texture = "EditorUi",
+			int ImageMode = 0,
+			float[] Uv0 = [ 22 , 192 ],
+			float[] Uv1 = [ 10 , 10 ],
+		},
+	}
+	
+	DefinitionSet ScrollBar = 
+	{
+		SlicedDefinition Background =
+		{
+			string Texture = "EditorUi",
+			float[] Uv0 = [ 114 , 2 ],
+			float[] Uv1 = [ 24 , 24 ],
+			float[] Slices = [ 8, 8, 8, 8 ] ,
+		},
+		
+		SlicedDefinition ButtonBackground =
+		{
+			string Texture = "EditorUi",
+			float[] Uv0 = [ 58 , 30 ],
+			float[] Uv1 = [ 24 , 24 ],
+			float[] Slices = [ 6, 6, 6, 6 ] ,
+		},
+		
+		SlicedDefinition ButtonBackgroundOver =
+		{
+			string Texture = "EditorUi",
+			float[] Uv0 = [ 114 , 30 ],
+			float[] Uv1 = [ 24 , 24 ],
+			float[] Slices = [ 6, 6, 6, 6 ] ,
+		},
+	},
+	
+	SlicedDefinition Transparent =
+	{
+		string Texture = "EditorUi",
+		float[] Uv0 = [ 2 , 58 ],
+		float[] Uv1 = [ 24 , 24 ],
+		float[] Slices = [ 3, 3, 3, 3 ] ,
+	},
+	
+	SlicedDefinition DragBox =
+	{
+		string Texture = "EditorUi",
+		float[] Uv0 = [ 114 , 58 ],
+		float[] Uv1 = [ 24 , 24 ],
+		float[] Slices = [ 2, 2, 2, 2 ] ,
+	},
+	
+	ImageDefinition Logo =
+	{
+		string Texture = "AlphaLogo",
+		int ImageMode = 0,
+		float[] Uv0 = [ 0 , 0 ],
+		float[] Uv1 = [ 256 , 256 ],
+	},
+	
+	ImageDefinition Spinner =
+	{
+		string Texture = "Spinner",
+		int ImageMode = 1,
+		float[] Uv0 = [ 0 , 0 ],
+		float[] Uv1 = [ 128 , 128 ],
+	},
+	
+	ImageDefinition VerticalDivider =
+	{
+		string Texture = "EditorUi",
+		int ImageMode = 0,
+		float[] Uv0 = [ 58 , 86 ],
+		float[] Uv1 = [ 2 , 24 ],
+	},
+	
+	ImageDefinition HorizontalDivider =
+	{
+		string Texture = "EditorUi",
+		int ImageMode = 0,
+		float[] Uv0 = [ 86 , 86 ],
+		float[] Uv1 = [ 24 , 2 ],
+	},
+	
+	SlicedDefinition HiLight =
+	{
+		string Texture = "EditorUi",
+		float[] Uv0 = [ 58 , 58 ],
+		float[] Uv1 = [ 24 , 24 ],
+		float[] Slices = [ 2, 2, 2, 2 ] ,
+	},
+	
+	SlicedDefinition ColumnHeader =
+	{
+		string Texture = "EditorUi",
+		float[] Uv0 = [ 70 , 180 ],
+		float[] Uv1 = [ 64 , 24 ],
+		float[] Slices = [ 6, 4, 6, 0 ] ,
+	},
+	
+	DefinitionSet Loading = 
+	{
+		TextDefinition TitleText =
+		{
+			string FontName = "VerdanaBold",
+			float FontSize = 30,
+			float[] FontColor = [.925,.925,.925,1],
+		},
+		
+		TextDefinition Text =
+		{
+			string FontName = "Verdana",
+			float FontSize = 20,
+			float[] FontColor = [.925,.925,.925,1],
+		},
+		
+		SlicedDefinition Background =
+		{
+			string Texture = "EditorUi",
+			float[] Uv0 = [ 58 , 30 ],
+			float[] Uv1 = [ 24 , 24 ],
+			float[] Slices = [ 4, 4, 4, 4 ] ,
+		},
+		
+	}
+	
+	DefinitionSet PropertyGrid = 
+	{
+	
+		ImageDefinition PropArrowRight =
+		{
+			string Texture = "ObjectIcons",
+			int ImageMode = 0,
+			float[] Uv0 = [ 16, 48 ],
+			float[] Uv1 = [ 16 , 16 ],
+		},
+	
+		ImageDefinition PropArrowDown =
+		{
+			string Texture = "ObjectIcons",
+			int ImageMode = 0,
+			float[] Uv0 = [ 32, 48 ],
+			float[] Uv1 = [ 16 , 16 ],
+		},
+	
+		TextDefinition PropertyLabel =
+		{
+			string FontName = "Verdana",
+			float FontSize = 11,
+			float[] FontColor = [.925,.925,.925,1],
+		},
+		
+		ImageDefinition PropDot =
+		{
+			string Texture = "ObjectIcons",
+			int ImageMode = 0,
+			float[] Uv0 = [ 32, 32 ],
+			float[] Uv1 = [ 16 , 16 ],
+		},
+			
+		ImageDefinition PropInvoke =
+		{
+			string Texture = "ObjectIcons",
+			int ImageMode = 0,
+			float[] Uv0 = [ 0, 48 ],
+			float[] Uv1 = [ 16 , 16 ],
+		},
+		
+		ImageDefinition ResourceSelect =
+		{
+			string Texture = "EditorUi",
+			int ImageMode = 0,
+			float[] Uv0 = [ 100, 200 ],
+			float[] Uv1 = [ 10 , 16 ],
+		},
+		
+		SlicedDefinition PropBG =
+		{
+			string Texture = "EditorUi",
+			float[] Uv0 = [ 142 , 58 ],
+			float[] Uv1 = [ 24 , 24 ],
+			float[] Slices = [ 2, 2, 2, 2 ] ,
+		},
+		
+		SlicedDefinition Background =
+		{
+			string Texture = "EditorUi",
+			float[] Uv0 = [ 114 , 2 ],
+			float[] Uv1 = [ 24 , 24 ],
+			float[] Slices = [ 2, 2, 2, 2 ] ,
+		},
+		
+		SlicedDefinition BorderBackground =
+		{
+			string Texture = "EditorUi",
+			float[] Uv0 = [ 2 , 58 ],
+			float[] Uv1 = [ 24 , 24 ],
+			float[] Slices = [ 1, 1, 1, 1 ] ,
+		},
+		
+	},
+
+	DefinitionSet TreeGrid = 
+	{
+		SlicedDefinition Background =
+		{
+			string Texture = "EditorUi",
+			float[] Uv0 = [ 114 , 2 ],
+			float[] Uv1 = [ 24 , 24 ],
+			float[] Slices = [ 2, 2, 2, 2 ] ,
+		},
+		
+		SlicedDefinition ColumnHeader =
+		{
+			string Texture = "EditorUi",
+			float[] Uv0 = [ 198 , 2 ],
+			float[] Uv1 = [ 24 , 24 ],
+			float[] Slices = [ 4, 4, 4, 4 ] ,
+		},
+		
+		SlicedDefinition BackDrop =
+		{
+			string Texture = "EditorUi",
+			float[] Uv0 = [ 142 , 2 ],
+			float[] Uv1 = [ 24 , 24 ],
+			float[] Slices = [ 4, 4, 4, 4 ] ,
+		},
+	}
+	
+	DefinitionSet AnimatorUI = 
+	{
+		TextDefinition Text =
+		{
+			string FontName = "Verdana",
+			float FontSize = 11,
+			float[] FontColor = [.925,.925,.925,1],
+		},
+		
+		TextDefinition MessageText =
+		{
+			string FontName = "Verdana",
+			float FontSize = 60,
+			float[] FontColor = [.925,.925,.925,1],
+		},
+		
+		SlicedDefinition ScrubBackground =
+		{
+			string Texture = "EditorUi",
+			float[] Uv0 = [ 30 , 30 ],
+			float[] Uv1 = [ 24 , 24 ],
+			float[] Slices = [ 2, 2, 2, 2 ] ,
+		},
+		
+		SlicedDefinition GraphBackground =
+		{
+			string Texture = "EditorUi",
+			float[] Uv0 = [ 2 , 2 ],
+			float[] Uv1 = [ 24 , 24 ],
+			float[] Slices = [ 2, 2, 2, 2 ] ,
+		},
+		
+		SlicedDefinition TrackColor =
+		{
+			string Texture = "EditorUi",
+			float[] Uv0 = [ 2 , 86 ],
+			float[] Uv1 = [ 24 , 24 ],
+			float[] Slices = [ 2, 2, 2, 2 ] ,
+		},
+	}
+	
+	
+	ImageDefinition SmallMagnifyingGlass =
+	{
+		string Texture = "EditorUi",
+		int ImageMode = 0,
+		float[] Uv0 = [ 0, 208 ],
+		float[] Uv1 = [ 16 , 16 ],
+	},
+	
+	ImageDefinition EyeDropper =
+	{
+		string Texture = "EditorUi",
+		int ImageMode = 0,
+		float[] Uv0 = [ 0, 224 ],
+		float[] Uv1 = [ 16 , 16 ],
+	},
+	
+	ImageDefinition BlackDownArrow =
+	{
+		string Texture = "EditorUi",
+		int ImageMode = 0,
+		float[] Uv0 = [ 20, 191 ],
+		float[] Uv1 = [ 12 , 14 ],
+	},
+	
+	ImageDefinition MainSearch =
+	{
+		string Texture = "EditorUi",
+		int ImageMode = 0,
+		float[] Uv0 = [ 32, 208 ],
+		float[] Uv1 = [ 48 , 32 ],
+	},
+	
+	DefinitionSet CollisionMatrixItem = 
+	{
+		SlicedDefinition Background =
+		{
+			string Texture = "EditorUi",
+			float[] Uv0 = [ 2 , 58 ],
+			float[] Uv1 = [ 24 , 24 ],
+			float[] Slices = [ 3, 3, 3, 3 ] ,
+		},
+		
+		TextDefinition Text =
+		{
+			string FontName = "Verdana",
+			float FontSize = 11,
+			float[] FontColor = [.925,.925,.925,1],
+		},
+		
+		ImageDefinition SkipDetection = 
+		{
+			string Texture = "ObjectIcons",
+			int ImageMode = 0,
+			float[] Uv0 = [ 96, 48 ],
+			float[] Uv1 = [ 16 , 16 ],
+		},
+		
+		ImageDefinition SkipResolution = 
+		{
+			string Texture = "ObjectIcons",
+			int ImageMode = 0,
+			float[] Uv0 = [ 112, 48 ],
+			float[] Uv1 = [ 16 , 16 ],
+		},
+		
+		ImageDefinition Resolve = 
+		{
+			string Texture = "ObjectIcons",
+			int ImageMode = 0,
+			float[] Uv0 = [ 64, 0 ],
+			float[] Uv1 = [ 16 , 16 ],
+		},
+	},
+}

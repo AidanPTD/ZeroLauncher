@@ -1,0 +1,8 @@
+FontContent =
+{
+	FontBuilder =
+	{
+		string Name = "Inconsolata",
+		uint64 ResourceId = 4e532933f85a9cc8,
+	},
+},

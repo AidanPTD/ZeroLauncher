@@ -1,0 +1,8 @@
+Cog = 
+{
+	VersionSelectorConfig = 
+	{
+		string VersionSelectorLocation = "",
+		VersionSelectorAutoRunMode AutoRunMode = None,
+	},
+},

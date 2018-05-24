@@ -1,0 +1,10 @@
+DataContent =
+{
+	DataBuilder =
+	{
+		string Name = "LargeIcons",
+		uint64 ResourceId = 4e2ee06fc1c86d1c,
+		string LoaderType = "DefinitionSet",
+		uint Version = 0,
+	},
+},

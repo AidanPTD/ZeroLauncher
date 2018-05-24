@@ -1,0 +1,11 @@
+DataContent = 
+{
+	DataBuilder = 
+	{
+		string Name = "LauncherUi",
+		uint64 ResourceId = 5496bbe04bf3c16f,
+		string LoaderType = "DefinitionSet",
+		uint Version = 0,
+		bool ShowInEditor = true,
+	},
+},

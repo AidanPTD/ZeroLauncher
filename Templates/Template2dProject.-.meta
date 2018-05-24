@@ -1,0 +1,10 @@
+Object TemplateProject = 
+{
+	string Name = "EMPTY 2D\nProject",
+	string TemplateUrl = "Templates/Template2dProject.-.zip",
+	string Tags = "",
+	string PreviewUrl = "Templates/Template2dPreview.png",
+	string MinVersion = "",
+	string MaxVersion = "",
+	float SortPriority = 1,
+},

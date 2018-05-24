@@ -1,0 +1,10 @@
+DataContent =
+{
+	DataBuilder =
+	{
+		string Name = "EditorUi",
+		uint64 ResourceId = 4de020863e860ff4,
+		string LoaderType = "DefinitionSet",
+		uint Version = 0,
+	},
+},
